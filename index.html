@@ -140,7 +140,7 @@ function drawPaddle() {
     var n = d.getTime();
     var nn = n + 10000;
     var nnn = n + 20000;
-    if (nn > n < nnn){
+    if (nn > n || n < nnn){
         PaddleColour = "000000";
         } else {
         PaddleColour = "FFFFFF";
